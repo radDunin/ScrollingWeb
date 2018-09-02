@@ -1,0 +1,33 @@
+.navbar{
+  display: flex;
+  width: 100%;
+  color: white;
+  justify-content: flex-end;
+  flex-flow: row;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-right: 5%;
+}
+
+ul.navList{
+  list-style-type: none;
+  margin: 0 6vw 0 0;
+  font-size: 26px;
+}
+
+ul.navList > li{
+  display: inline-block;
+  margin: 43px 17px 0 0;
+  padding-left: 1em;  
+}
+
+ul.navList > li > a{
+  text-decoration: none;
+  color: white;
+}
+
+ul.navList .selected{
+  padding: 18px;
+  background-color:#430B59; 
+}
